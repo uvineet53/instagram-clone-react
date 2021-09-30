@@ -1,0 +1,29 @@
+.upload__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 671px;
+    background-color: rgb(245, 243, 243);
+    padding: 1rem;
+}
+
+.upload__textarea{
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type=file]::file-selector-button {
+    border: 2px solid ;
+    padding: .2em .4em;
+    border-radius: 10px;
+    background-color: #1b71d4;
+    transition: 1s;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom:10px;
+  }
+
+  
